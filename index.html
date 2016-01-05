@@ -4,27 +4,107 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nawal Ali</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <a href= "#" class= "navbar-brand">NAWAL ALI</a>
-        <button class= "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">f</button>
-        <div class="collapse navbar-collapse navHeaderCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-
+    <nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+            <a class="navbar-brand page-scroll nawal" href="#page-top">
+              <!-- <span class="light">Nawal</span> Ali -->
+            </a>
         </div>
 
-
-      </div>
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll nawal" href="#about">About Me</a>
+            </li>
+            <li>
+              <a class="page-scroll nawal" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="page-scroll nawal" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
+
+    <div class="hero-unit"></div>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Hi there - I'm Nawal!</h2>
+                <p>I'm a Junior Web Developer who comes from a non-traditional background than most software developers where I received my bachelors in Behavioral Neuroscience. Over the past few years I experimented with my interest in coding and found myself totally immersed in the world of programming. I'm passionate about developing products that truly understand the target user in detail.
+
+                I enjoy tackling challenges and learning new technologies. Please reach out to me if you'd like to chat or grab coffee (can you tell I love it?)!</p>
+                <div class="skills-experience-education row">
+                    <div class="skills-education col-md-6">
+                        <h3>Skills</h3>
+                        <ul class="skills-list list-unstyled">
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Ruby on Rails</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>AngularJS</li>
+                            <li>jQuery</li>
+                            <li>AJAX</li>
+                            <li>HTML5 / CSS3</li>
+                        </ul>
+
+                    <h3>Education</h3>
+                        <ul class="education-list list-unstyled">
+                            <li>
+                                <h5>BA, Human Development & Studio Art</h5>
+                                <p>Boston College</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="experience col-md-6">
+                        <h3>Experience</h3>
+                        <ul class="experience-list list-unstyled">
+                            <li>
+                                <h5>June 2015 - September 2015</h5>
+                                <p>Web Development Immersive Student, General Assembly</p>
+                            </li>
+                            <li>
+                                <h5>September 2014 - June 2015</h5>
+                                <p>Testing Development Analyst, Wayfair</p>
+                            </li>
+                            <li>
+                                <h5>April 2014 - September 2014</h5>
+                                <p>Merchandising Analyst, Wayfair</p>
+                            </li>
+                            <li>
+                                <h5>August 2012 - April 2014</h5>
+                                <p>Client Services Representative, Invaluable</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <a target="_blank" href="img/kkehlenbeck_resume.pdf" class="btn btn-default btn-lg">Resume</a>
+            </div>
+        </div>
+    </section>
 
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
