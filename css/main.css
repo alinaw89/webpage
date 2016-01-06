@@ -12,7 +12,7 @@
 }
 
 .jumbotron{
-  background-image: url('../images/girlwithcat.jpg');
+  background-image: url('../images/girlwithcat1200.jpg');
   background-repeat:no-repeat;
   height:1000px;
   width:100%;
@@ -20,22 +20,45 @@
 
 /* Large Devices, Wide Screens */
   @media only screen and (max-width : 1200px) {
-
+    .jumbotron{
+      background-image: url('../images/girlwithcat1200.jpg');
+      background-repeat:no-repeat;
+      height:1000px;
+      width:100%;
+    }
   }
 
   /* Medium Devices, Desktops */
   @media only screen and (max-width : 992px) {
-
+    .jumbotron{
+      background-image: url('../images/girlwithcat480.jpg');
+      background-repeat:no-repeat;
+      height:700px;
+      width:100%;
+      background-position: 75% 50%;
+    }
   }
 
   /* Small Devices, Tablets */
   @media only screen and (max-width : 768px) {
-
+    .jumbotron{
+      background-image: url('../images/girlwithcat480.jpg');
+      background-repeat:no-repeat;
+      height:700px;
+      width:100%;
+      background-position: 75% 50%;
+    }
   }
 
   /* Extra Small Devices, Phones */
   @media only screen and (max-width : 480px) {
-
+    .jumbotron{
+      background-image: url('../images/girlwithcat480.jpg');
+      background-repeat:no-repeat;
+      height:700px;
+      width:100%;
+      background-position:65% 48%;
+    }
   }
 
   /* Custom, iPhone Retina */
