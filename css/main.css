@@ -1,0 +1,44 @@
+.navbar{
+  height: 140px;
+  padding-top:40px;
+}
+
+.navbar_nawal{
+  margin-left:90px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  margin-right: 90px;
+}
+
+.jumbotron{
+  background-image: url('../images/girlwithcat.jpg');
+  background-repeat:no-repeat;
+  height:1000px;
+  width:100%;
+}
+
+/* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+
+  }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : 320px) {
+
+  }
