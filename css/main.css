@@ -69,15 +69,39 @@
   }
 
 /*NAWAL INTRO*/
+.jumbotron h1{
+    -webkit-animation-duration:1.5s;
+    -webkit-animation-delay:0.5s;
+}
+
+/*.first_h2{
+  -webkit-animation-duration:1.5s;
+  -webkit-animation-delay:1s;
+}*/
 
 .nawal_intro{
   margin-top:100px;
   color:#EE5B6B;
   position:absolute;
   margin-left:120px;
-
+   -webkit-animation-delay:0.5s;
 }
-
+.nawal_intro_color{
+  color:#EE5B6B;
+  -webkit-animation-delay:2s;
+  -webkit-animation-duration:1.5s;
+}
+.web_intro_color{
+  color:#EE5B6B;
+  -webkit-animation-delay:4s;
+  -webkit-animation-duration:1.5s;
+}
 .main_title{
   color:white;
+}
+
+.ampersand{
+  margin-left:120px;
+  -webkit-animation-delay:3s;
+  -webkit-animation-duration:1.5s;
 }
