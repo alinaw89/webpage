@@ -1,19 +1,21 @@
+/*NAVBAR*/
 .navbar{
   height: 140px;
   padding-top:40px;
 }
 
 .navbar_nawal{
-  margin-left:90px;
+  margin-left:129px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   margin-right: 90px;
 }
 
+/*JUMBOTRON*/
 .jumbotron{
   background-image: url('../images/girlwithcat1200.jpg');
-  background-repeat:no-repeat;
+/*  background-repeat:no-repeat;*/
   height:1000px;
   width:100%;
 }
@@ -22,8 +24,8 @@
   @media only screen and (max-width : 1200px) {
     .jumbotron{
       background-image: url('../images/girlwithcat1200.jpg');
-      background-repeat:no-repeat;
-      height:1000px;
+/*      background-repeat:no-repeat;
+*/      height:1000px;
       width:100%;
     }
   }
@@ -32,8 +34,8 @@
   @media only screen and (max-width : 992px) {
     .jumbotron{
       background-image: url('../images/girlwithcat480.jpg');
-      background-repeat:no-repeat;
-      height:700px;
+/*      background-repeat:no-repeat;
+*/      height:700px;
       width:100%;
       background-position: 75% 50%;
     }
@@ -43,8 +45,8 @@
   @media only screen and (max-width : 768px) {
     .jumbotron{
       background-image: url('../images/girlwithcat480.jpg');
-      background-repeat:no-repeat;
-      height:700px;
+/*      background-repeat:no-repeat;
+*/      height:700px;
       width:100%;
       background-position: 75% 50%;
     }
@@ -54,8 +56,8 @@
   @media only screen and (max-width : 480px) {
     .jumbotron{
       background-image: url('../images/girlwithcat480.jpg');
-      background-repeat:no-repeat;
-      height:700px;
+/*      background-repeat:no-repeat;
+*/      height:700px;
       width:100%;
       background-position:65% 48%;
     }
@@ -65,3 +67,17 @@
   @media only screen and (max-width : 320px) {
 
   }
+
+/*NAWAL INTRO*/
+
+.nawal_intro{
+  margin-top:100px;
+  color:#EE5B6B;
+  position:absolute;
+  margin-left:120px;
+
+}
+
+.main_title{
+  color:white;
+}
