@@ -1,8 +1,10 @@
 /*NAVBAR*/
 .navbar{
-  height: 140px;
-  padding-top:40px;
+  height: 110px;
+  padding-top:20px;
+/*  background:transparent;*/
 }
+
 
 .navbar_nawal{
   margin-left:129px;
@@ -104,4 +106,15 @@
   margin-left:120px;
   -webkit-animation-delay:3s;
   -webkit-animation-duration:1.5s;
+}
+
+/*ABOUT ME*/
+.about_blurb{
+  margin-top:60px;
+}
+
+#about img{
+  border-radius: 25px;
+  height:300px;
+  width:300px;
 }
