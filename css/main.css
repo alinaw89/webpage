@@ -2,12 +2,14 @@
 .navbar{
   height: 110px;
   padding-top:20px;
+  background-color:white;
 /*  background:transparent;*/
 }
 
 
 .navbar_nawal{
-  margin-left:129px;
+/*  margin-bottom: 20px;*/
+ /* margin-left:115px;*/
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -52,6 +54,13 @@
       width:100%;
       background-position: 75% 50%;
     }
+
+    .navbar_nawal{
+      /*margin-bottom: 20px;*/
+      /*margin-left:115px;*/
+
+    }
+
   }
 
   /* Extra Small Devices, Phones */
@@ -85,7 +94,7 @@
   margin-top:100px;
   color:#EE5B6B;
   position:absolute;
-  margin-left:120px;
+  margin-left:62px;
    -webkit-animation-delay:0.5s;
 }
 .nawal_intro_color{
@@ -103,7 +112,6 @@
 }
 
 .ampersand{
-  margin-left:120px;
   -webkit-animation-delay:3s;
   -webkit-animation-duration:1.5s;
 }
