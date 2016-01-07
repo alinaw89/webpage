@@ -1,19 +1,26 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /*NAVBAR*/
 .navbar{
-  height: 110px;
+  height: 140px;
   padding-top:20px;
   background-color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:17px;
+
 /*  background:transparent;*/
 }
 
 
 .navbar_nawal{
-/*  margin-bottom: 20px;*/
- /* margin-left:115px;*/
+  margin-bottom:20px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  margin-right: 90px;
+  margin-right: 60px;
+  margin-top:20px;
 }
 
 /*JUMBOTRON*/
@@ -54,13 +61,6 @@
       width:100%;
       background-position: 75% 50%;
     }
-
-    .navbar_nawal{
-      /*margin-bottom: 20px;*/
-      /*margin-left:115px;*/
-
-    }
-
   }
 
   /* Extra Small Devices, Phones */
@@ -91,31 +91,43 @@
 }*/
 
 .nawal_intro{
-  margin-top:100px;
-  color:#EE5B6B;
+  margin-top:150px;
+  color:white;
   position:absolute;
   margin-left:62px;
    -webkit-animation-delay:0.5s;
 }
-.nawal_intro_color{
+/*.nawal_intro_color{
   color:#EE5B6B;
   -webkit-animation-delay:2s;
   -webkit-animation-duration:1.5s;
-}
-.web_intro_color{
+}*/
+/*.web_intro_color{
   color:#EE5B6B;
   -webkit-animation-delay:4s;
   -webkit-animation-duration:1.5s;
-}
-.main_title{
-  color:white;
-}
+}*/
 
-.ampersand{
+
+/*.ampersand{
   -webkit-animation-delay:3s;
+  -webkit-animation-duration:1.5s;
+}*/
+
+.first_adjective{
+  -webkit-animation-delay:2s;
   -webkit-animation-duration:1.5s;
 }
 
+.second_adjective{
+  -webkit-animation-delay:300s;
+  -webkit-animation-duration:1.5s;
+}
+
+.third_adjective{
+  -webkit-animation-delay:400s;
+  -webkit-animation-duration:1.5s;
+}
 /*ABOUT ME*/
 .about_blurb{
   margin-top:60px;
