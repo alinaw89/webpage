@@ -1,5 +1,7 @@
 body {
   font-family: 'Quicksand', sans-serif;
+  background-image: url("http://image.shutterstock.com/display_pic_with_logo/687088/150708014/stock-vector-vintage-background-includes-three-groups-transparent-vintage-background-with-spots-grunge-150708014.jpg");
+  background-repeat: no-repeat;
 }
 
 /*NAVBAR*/
@@ -128,12 +130,63 @@ body {
   -webkit-animation-delay:400s;
   -webkit-animation-duration:1.5s;
 }
+
+.section_heading{
+  color: #602d05;
+}
+
 /*ABOUT ME*/
+.about_margin{
+  margin-top: 230px;
+}
+
+
+#about{
+  /*margin-top:200px;
+  margin-bottom: 200px;*/
+}
+
 .about_blurb{
-  margin-top:60px;
+  text-align:left;
+  font-size: 25px;
+  margin-left:90px;
+  margin-right:90px;
+  color:#737365;
+  margin-top:80px;
+  margin-bottom: 200px;
 }
 
 .hello{
   text-align: left;
   font-size:10px;
+}
+
+.pink_color{
+  color: #D53247;
+}
+
+/*PORTFOLIO*/
+.portfolio_blurb{
+  margin-top:200px;
+  margin-bottom: 200px;
+}
+
+.portfolio_margin{
+  margin-top:70px;
+}
+
+/*CONTACT*/
+.contact_blurb{
+  margin-top:200px;
+  margin-bottom: 200px;
+  font-size: 25px;
+  color:#737365;
+}
+
+.contact_img{
+  color:#D53247;
+}
+
+.contact_margin{
+  margin-top:70px;
 }
