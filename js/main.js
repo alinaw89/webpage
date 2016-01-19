@@ -4,7 +4,6 @@ $(document).ready(function(){
   $(window).resize(function(){
     hideDiv();
   });
-
 });
 
 function hideDiv(){
