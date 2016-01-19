@@ -1,11 +1,15 @@
 $(document).ready(function(){
   hideDiv();
+
+  $(window).resize(function(){
+    hideDiv();
+  })
 });
 
 function hideDiv(){
   if ($(window).width() < 986){
     $(".nawal_intro").hide();
   } else {
-    console.log("All good in the hood");
+    $(".nawal_intro").show();
   }
 }
