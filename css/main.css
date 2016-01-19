@@ -1,7 +1,8 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-image: url("http://image.shutterstock.com/display_pic_with_logo/687088/150708014/stock-vector-vintage-background-includes-three-groups-transparent-vintage-background-with-spots-grunge-150708014.jpg");
+  background-image: url("http://oildigger.com/wp-content/themes/appsumframework/images/patterns/pattern3.png");
   background-repeat: no-repeat;
+  background-size:cover;
 }
 
 /*NAVBAR*/
@@ -132,7 +133,8 @@ body {
 }
 
 .section_heading{
-  color: #602d05;
+  color: #1f93a8;
+  font-size:40px;
 }
 
 /*ABOUT ME*/
