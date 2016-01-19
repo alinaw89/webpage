@@ -133,10 +133,7 @@ body {
   margin-top:60px;
 }
 
-#about img{
-  border-radius: 25px;
-  height:300px;
-  width:300px;
+.hello{
+  text-align: left;
+  font-size:10px;
 }
-
-
