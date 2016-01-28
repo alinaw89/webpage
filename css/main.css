@@ -295,3 +295,11 @@ transform:translatey(0);
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
 }
+
+/*FOOTER*/
+.footer{
+  color:white;
+  padding-top:42px;
+  font-size:20px;
+
+}
